@@ -6,10 +6,11 @@ import time
 import pandas as pd
 from bs4 import BeautifulSoup
 
-username = "librarian@atmiyauni.ac.in"
-password = "AUirins@123"
+username = input("Enter Username for portal: ")
+password = input("Enter password: ")
+driver_path = input('Enter your chrome driver path (without " "): ')
 
-driver = webdriver.Chrome("D:\chromedriver-win64 (1)\chromedriver-win64\chromedriver.exe")
+driver = webdriver.Chrome(driver_path)
 driver.get("https://atmiyauni.irins.org/dashboard")
 content = driver.page_source
 soup = BeautifulSoup(content)
