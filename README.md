@@ -1,3 +1,5 @@
 # IRINS-Portal-Data-Scraper
 ## Author: Brijraj Kacha
 In this project, I utilized Python and Selenium to automate the login and data retrieval process from the library IRINS portal. The script performs automatic login and web scraping, enabling dynamic data fetching each time it is run. Specifically, the script extracts detailed information on faculty and scientists, including their publications, patents, Crossref and Scopus records, average citations per paper and per faculty, and different types of open access statuses (Closed Access, Gold OA, Green OA, Bronze OA). Additionally, it gathers altmetrics data, such as mentions on Facebook, Twitter, Altmetrics Crossref, and Google Plus. This automation ensures that the data is consistently updated and readily available, significantly improving the efficiency and accuracy of tracking and analyzing the scholarly contributions and impact of faculty and scientists within the institution.
+
+- Download your suitable chrome-drive from here: [https://googlechromelabs.github.io/chrome-for-testing/]
